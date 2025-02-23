@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+div{
+	background-color:lightgray;
+	padding:30px;
+	text-align:center;
+	section{
+		display:flex;
+		justify-content:space-between;
+		input{
+			width:60px;
+			height:50px;
+			font-size:30px;
+			text-align:center;
+			color:gray;
+		}
+	}
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
