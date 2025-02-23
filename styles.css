@@ -4,6 +4,7 @@ div{
 	padding:30px;
 	text-align:center;
 	section{
+		#code-1:focus
 		display:flex;
 		justify-content:space-between;
 		input{

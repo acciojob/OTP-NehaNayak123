@@ -1,6 +1,6 @@
 //your JS code here. If required.
 const inputs = document.querySelectorAll('.code');
-
+document.querySelector('#code-1').focus();
         inputs.forEach((input, index) => {
             input.addEventListener('input', (e) => {
                 // Ensure only digits are entered
